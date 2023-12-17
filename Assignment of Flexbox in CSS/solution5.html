@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: #1a1e20;
+            display: flex;
+            justify-content: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .container{ 
+            max-width: 1200px;
+            width: 100%;
+        }
+        img{
+            width: 200px;
+            height: 180px;
+            
+            
+            
+        }
+        h1{
+            text-align: center;
+            color:rgb(220, 41, 41);
+        }
+        h2{
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+        .all-columns{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        #column{
+            width: 600px;
+            border:5px solid black;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px 15px;
+        }
+        .html {
+        background-color: #34d4e9;
+        color: #111010;
+      }
+      .css {
+        background-color: #cc2375;
+        color: #111010;
+      }
+      .js {
+        background-color: #6a30dd;
+        color: #111010;
+      }
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Full Stack Web Development</h1>
+        <section class="all-columns">
+        <div class="html" id="column">
+            <h2>HTML</h2>
+            <img src="Assets/html1.png" alt="html-logo" />
+            <p>  HTML, or HyperText Markup Language, is the standard markup language used to create web pages. It is a cornerstone technology of the
+                World Wide Web, alongside CSS and JavaScript. <br/>
+
+                HTML elements are the building blocks of HTML pages. They are represented by tags, written using angle brackets. Create a structure for the web content and ensure proper formatting and display of text and images. <br/>
+                
+                HTML5 is the latest evolution of HTML, and it has added many new elements to the HTML specification. These include multimedia tags such as video tag and audio tag, graphical content tags like svg tag and canvas tag, as well as many others that contribute to the semantic understanding of the content, like article tag, section tag, nav tag, and aside tag. <br/>
+                
+               
+                </p>
+        </div>
+
+        <div class="css" id="column">
+            <h2>CSS</h2>
+            <img src="Assets/CSS3 logo.png"  alt="css-logo" />
+            <p> Cascading Style Sheets (CSS) is a style sheet language used for describing the and formatting of a document written in HTML. 
+                CSS is designed to enable the separation of document content from document presentation, including  elements such as the layout,colors, and fonts. <br/>
+                CSS can save a lot of work. It can control the layout of multiple web pages all at once. External stylesheets are stored in CSS files.This allows you to change the appearance and layout of all the pages in a site by changing just one file! <br/>
+
+                CSS3 is the latest standard for CSS. CSS3 is completely backwards-compatible with earlier versions of CSS. It has been split into“modules”. It contains the “old CSS specification” (which has been split into smaller pieces). In addition, new modules are added.
+            </p>
+        </div>
+
+        <div class="js" id="column">
+            <h2>JavaScript</h2>
+            <img src="Assets/JavaScript-01.jpg"  style="height: 215px;" alt="js-logo" />
+            <p> JavaScript is a powerful, flexible, and fast programming language that is often used in conjunction with HTML and CSS to create   
+                interactive web pages. It is an interpreted language, meaning it doesn’t need to be compiled by the programmer; instead, it is processed by the client’s web browser at runtime.
+                <br/>
+
+                JavaScript is known for its role in making web pages interactive. It allows for the creation of dynamic content, including animations, updating content, interactive maps, and other features that can improve the user experience on a website. <br/>
+                
+                JavaScript is object-oriented, which means it organizes data and functions into objects that can interact with one another. <br/>
+                
+               </p>
+        </div>
+    </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Avatar Design</title>
+
+    <style>
+        body{
+            background-color: rgb(16, 21, 21);
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 200px;
+            
+        }
+        img{
+            width: 200px;
+            height: 190px;
+            border: 15px solid white;
+            border-radius: 50%;
+            position: relative;
+            margin-left: -50px;
+           
+        }
+        img[alt="Albert_Einstein-img"]{
+            z-index: 3;
+        }
+        img[alt="stephen_hawking-img"]{
+            z-index: 2;
+        }
+        img[ alt="bill_gates-img"]{
+            z-index: 1;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <img src="Assets/albert.jpg" alt="Albert_Einstein-img" />
+        <img src="Assets/stephen-hawking.jpg" alt="stephen_hawking-img" />
+        <img src="Assets/bill_gates.jpg" alt="bill_gates-img" />
+        <img src="Assets/mark.jpg" alt="Mark_zuckerberg-img" />
+    </div>
+</body>
+</html>

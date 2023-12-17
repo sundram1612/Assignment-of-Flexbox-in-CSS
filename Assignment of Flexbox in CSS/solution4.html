@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail Lander Page</title>
+
+    <style>
+         @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
+
+    body {
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container{
+        max-width: 1200px;
+        width: 100%;
+    }
+    nav{
+        
+        padding: 0 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .logo-section{
+        
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .logo-container img{
+        margin-top: 10px;
+        width: px;
+        height: 40px;
+    }
+    .btn-container{
+        display: flex;
+        gap: 50px;
+    }
+    .btn1 {
+        border: 0;
+        font-size: 15px;
+        background-color: transparent;
+        font-weight: 300;
+        color: #1a73e8;
+      }
+
+      .btn2 {
+        padding: 10px 20px;
+        background-color: transparent;
+        font-size: 15px;
+        font-weight: 300;
+        color: #1a73e8;
+        border: 0.5px solid #1f1f1f5e;
+        border-radius: 4px;
+      }
+
+      .btn3 {
+        padding: 10px 20px;
+        background-color: #1a73e8;
+        font-size: 15px;
+        font-weight: 300;
+        color: #fff;
+        border: 0.5px solid #1f1f1f5e;
+        border-radius: 4px;
+      }
+
+      hr {
+        border: 0.2px solid #1f1f1f41;
+        margin-top: 0px;
+      }
+
+      .main-section {
+        display: flex;
+        justify-content: space-around;
+        gap: 100px;
+      }
+
+      .sub-section-1 {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 30px;
+      }
+      .sub-section-1 > h2 {
+        font-size: 50px;
+        margin-bottom: 0px;
+      }
+      .sub-section-1 > p {
+        margin: 10px 0px;
+      }
+      .home-buttons {
+        display: flex;
+        margin-top: 30px;
+        gap: 50px;
+      }
+      .sub-section-2 {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .sub-section-2 > img {
+        width: 100%;
+      }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo-container">
+                <img src="Assets/gmail_logo.jpg" alt="gmailLogo">
+            </div>
+            <div class="btn-container">
+                <button class="btn1">For Work</button>
+                <button class="btn2">Sign In</button>
+                <button class="btn3">Create An Account</button>
+            </div>
+        </nav>
+        <hr/>
+        <section class="main-section">
+            <section class="sub-section-1">
+                <h2>Secure, Smart and Easy to use Email</h2>
+                <p>
+                    Get more done with Gmail. Now integrated with Google Chat, Google
+                    Meet, and more, all in one place.
+                </p>
+                <section class="home-buttons">
+                    <button class="btn3">Create an account</button>
+                    <button class="btn1">For Work</button>
+                </section>
+            </section>
+            <section class="sub-section-2">
+                <img src="Assets/smart.jpg" alt="Image" />
+            </section>
+        </section>
+    </div>
+</body>
+</html>
